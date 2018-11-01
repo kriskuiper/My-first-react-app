@@ -1,11 +1,11 @@
 import React from 'react';
 import logo from './../logo.svg';
 
-function Header() {
+function Header(props) {
     return (
         <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
-            <h1 className="App-title">Hoi, ik ben Kris</h1>
+            <h1 className="App-title">{props.helloText}, ik ben {props.name}</h1>
       </header>
     );
 }

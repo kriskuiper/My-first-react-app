@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Intro() {
+function Intro(props) {
     return (
         <p className="App-intro">
-            Dit is mijn eerste React app.
+            {props.introMessage}
         </p>
     );
 }
