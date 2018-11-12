@@ -2,8 +2,12 @@ import React from 'react';
 import UserInput from './UserInput'
 
 class Input extends React.Component {
-    state = {
-        input: '',
+    constructor(props) {
+        super(props);
+
+        this.state={
+            input: '',
+        }
     }
 
     // Change the h1 on inputChange

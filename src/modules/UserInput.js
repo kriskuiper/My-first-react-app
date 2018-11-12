@@ -4,7 +4,7 @@ function UserInput(props) {
     return (
         <React.Fragment>
             <input onChange={props.onChange} />
-            <p className="typeAnim">{props.input}</p>
+            <p>{props.input}</p>
         </React.Fragment>
     );
 }
