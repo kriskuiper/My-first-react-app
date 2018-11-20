@@ -30,6 +30,12 @@ input {
 p {
   font-weight: 800;
   font-size: 44px;
+  transition: .6s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+p:hover {
+  transform: rotate(180deg);
+  transition: .6s cubic-bezier(0.23, 1, 0.320, 1);
 }
 
 /* @keyframes scaleThis {
